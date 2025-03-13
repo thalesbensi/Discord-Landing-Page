@@ -42,7 +42,7 @@ header h1{
 }
 
 .button-items{
-    width: 205px;
+    width: 381px;
     height: 44px;
     border: 1px solid black;
     border-radius: 28px;
@@ -66,4 +66,52 @@ header h1{
 
 .button-002{
     background-color: black;
+}
+
+@media screen and (max-width: 540px){
+    
+    header{
+        height: 505px;
+        display: flex;
+        flex-wrap: wrap;
+        background-position: center;
+    }
+
+    nav{
+        width: 428px;
+        height: 366px;
+        align-items: flex-start;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: start;
+    }
+
+    nav h1{
+        margin: 0 0 ;
+    }
+
+    #description-content{
+        color: white;
+        font-weight: 400px;
+        size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    #button-container {
+        height: 122px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.25rem;
+    }
+    
+    .button-items{
+        height: 122px;
+        border: 1px solid black;
+        border-radius: 28px;
+        padding: 11px 23px;
+        font-weight: 400;
+        size: 1rem;
+    }
 }
