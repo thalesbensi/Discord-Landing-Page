@@ -1,0 +1,69 @@
+header{
+    background-image: url(../assets/img/header/Header.png);
+    background-color: #501cec;
+    background-size: cover ;
+    height: 459px;
+    gap: 24px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+nav{
+    width: 757px;
+    height: 270px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+header h1{
+    width: 313px;
+    height: 112px;
+    color: white;
+    font-family: "Luckiest Guy", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px auto;
+}
+
+#description-content{
+    color: white;
+    font-weight: 400px;
+    size: 1rem;
+    margin-bottom: 16px;
+}
+
+#button-container a{
+    text-decoration: none;
+}
+
+.button-items{
+    width: 205px;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 28px;
+    padding: 11px 23px;
+    margin-right: 16px;
+    font-weight: 400;
+    size: 1rem;
+}
+
+#button-01{
+    color: black;
+}
+
+.button-001{
+    background-color: white;
+}
+
+#button-02{
+    color: white;
+}
+
+.button-002{
+    background-color: black;
+}
