@@ -1,0 +1,24 @@
+footer{
+    height: 134px;
+    background-color:#23272A ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    width: 230px;
+    height: 63;
+}
+
+@media screen and (max-width: 540px){
+
+    footer{
+        height: 140px;
+    }
+
+    footer img{
+        width: 162px;
+        height: 45px;
+    }
+}
