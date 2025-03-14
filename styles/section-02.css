@@ -45,6 +45,8 @@
     }
     
     #section-02 .text-content h1{
+            width: 379px;
+            height: 33px;
             font-weight: 800;
             line-height: 135%;
             font-size: 1.5rem;
@@ -53,6 +55,8 @@
     }
     
     #section-02 .text-content span{
+        width: 378px;
+        height: 88px;
         font-weight: 400;
         font-size: 1rem;
         line-height: 135%;
