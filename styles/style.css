@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url(styles/reset.css);
-@import url(styles/header.css);
-@import url(styles/section-01.css);
-@import url(styles/section-02.css);
-@import url(styles/section-03.css);
-@import url(styles/section-04.css);
-@import url(styles/footer.css);
+@import url(./styles/reset.css);
+@import url(./styles/header.css);
+@import url(./styles/section-01.css);
+@import url(./styles/section-02.css);
+@import url(./styles/section-03.css);
+@import url(./styles/section-04.css);
+@import url(./styles/footer.css);
 
 body{
     font-family: "Open Sans", sans-serif;
